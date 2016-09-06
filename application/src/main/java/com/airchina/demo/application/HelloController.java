@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("/")
 	public String index() {
-		return "master";
+		return "edited on github.com";
 	}
 }
