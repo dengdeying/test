@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("/")
 	public String index() {
-		return "my branch 3";
+		return "master";
 	}
 }
